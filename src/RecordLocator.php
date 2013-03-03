@@ -5,6 +5,9 @@ class RecordLocator {
     private $int_to_char = array();
     private $char_to_int = array();
 
+    /**
+     * paramless constructor
+     */
     public function __construct()
     {
         $this->int_to_char = array(
@@ -82,6 +85,11 @@ class RecordLocator {
         );
     }
 
+    /**
+     * encode an integer into a RecordLocator string
+     * @param  Integer $number   number to convert
+     * @return String            RecordLocator string
+     */
     public function encode($number)
     {
         $numbers = array();
@@ -96,6 +104,11 @@ class RecordLocator {
         return $string;
     }
 
+    /**
+     * decodes a RecordLocator string back to its integer value
+     * @param  String $string   RecordLocator string
+     * @return Integer          integer value of the RecordLocator string
+     */
     public function decode($string)
     {
         $string = strtoupper($string);
