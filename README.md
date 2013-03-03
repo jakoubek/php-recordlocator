@@ -3,7 +3,7 @@ php-recordlocator
 
 A library to encode integers into a short and easy to read string.
 
-php-recordlocator is a PHP clone of Jesse Vincent's Perl module [Number::RecordLocator](http://search.cpan.org/~jesse/Number-RecordLocator-0.005/lib/Number/RecordLocator.pm)
+php-recordlocator is a PHP clone of Jesse Vincent's Perl module [Number::RecordLocator](http://search.cpan.org/~jesse/Number-RecordLocator-0.005/lib/Number/RecordLocator.pm).
 
 A **RecordLocator** is an alphanumerical string that represents an integer. This library encodes integers to RecordLocators and decodes RecordLocators back to integers.
 
@@ -17,7 +17,7 @@ Examples
 - The integer *5,325* encodes to the RecordLocator *78G*.
 - The integer *3,512,345* encodes to the RecordLocator *5E82T*.
 
-Both RecordLocator are shorter than their integer equivalent. You can encode more than 33.5 million integers in an 5-char RecordLocator: the largest 5-char RecordLocator, *ZZZZZ*, represents the integer *33,554,431*.
+Both RecordLocators are shorter than their integer equivalent. You can encode more than 33.5 million integers in an 5-char RecordLocator: the largest 5-char RecordLocator, *ZZZZZ*, represents the integer *33,554,431*.
 
 With 6 chars you can encode integers up to more than 1 billion.
 
