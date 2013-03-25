@@ -3,7 +3,7 @@
     "type": "library",
     "description": "A library to encode integers into a short and easy to read string.",
     "keywords": ["number","integer","id","convert","encoding"],
-    "homepage": "http://www.oliverjakoubek.de/php-recordlocator",
+    "homepage": "https://github.com/jakoubek/php-recordlocator",
     "license": "MIT",
     "authors": [
         {
