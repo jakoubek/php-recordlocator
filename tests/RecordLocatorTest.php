@@ -1,8 +1,8 @@
-<?php
+<?php declare(strict_types=1);
 
-require_once(__DIR__ . '/../src/RecordLocator.php');
+use PHPUnit\Framework\TestCase;
 
-class RecordLocatorTest extends PHPUnit_Framework_TestCase {
+final class RecordLocatorTest extends TestCase {
 
     private $generator;
 
