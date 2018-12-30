@@ -50,3 +50,7 @@ Changelog
 #### 1.0.0 - released 2013-03-03
 
 * Initial release
+
+#### 1.1.0 - released 2018-12-30
+
+* updated to PHPUnit 7
